@@ -11,12 +11,12 @@ app.get('/article-one',function(req, res){
 
 
 app.get('/article-two',function(req, res){
-    res.sendFile('article had been server');
+    res.sendFile('article two  had been server');
 });
 
 
 app.get('/article-three',function(req, res){
-    res.sendFile('article had been server');
+    res.sendFile('article three had been server');
 });
 
 app.get('/', function (req, res) {
