@@ -11,17 +11,17 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res){
-    res.sendFile('article had been server');
+    res.send('article had been server');
 });
 
 
 app.get('/article-two', function (req, res){
-    res.sendFile('article two  had been server');
+    res.send('article two  had been server');
 });
 
 
 app.get('/article-three', function(req, res){
-    res.sendFile('article three had been server');
+    res.send('article three had been server');
 });
 
 app.get('/ui/style.css', function (req, res) {
